@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.paper-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.paper-list li {
+    margin-bottom: 10px;
+}
+
+.paper-list a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.presentation-link {
+    color: #FFF;
+    background-color: #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #007BFF;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
