@@ -7,7 +7,6 @@ body {
     min-height: 100vh;
 }
 
-
 header {
     background-color: #007BFF;
     color: #FFF;
@@ -20,25 +19,29 @@ header h1 {
 
 main {
     padding: 20px;
-    flex: 1
+    flex: 1;
 }
 
-.paper-list ul {
-    list-style: none;
-    padding: 0;
+.paper-list table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.paper-list li {
-    margin-bottom: 10px;
+.paper-list th, .paper-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.paper-list th {
+    color: #007BFF;
 }
 
 .paper-list a {
     color: #007BFF;
     text-decoration: none;
-    margin-right: 10px;
 }
 
-.footer {
+footer {
     background-color: #007BFF;
     color: #FFF;
     text-align: center;
