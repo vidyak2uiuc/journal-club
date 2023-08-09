@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #007BFF;
-    color: #FFF;
+    background-color: #4b4b4c6b;
+    color: #0a0909;
     padding: 20px;
 }
 
@@ -33,17 +33,17 @@ main {
 }
 
 .paper-list th {
-    color: #007BFF;
+    color: #090909;
 }
 
 .paper-list a {
-    color: #007BFF;
+    color: #111213;
     text-decoration: none;
 }
 
 footer {
-    background-color: #007BFF;
-    color: #FFF;
+    background-color: #4b4b4c6b;
+    color: #050505;
     text-align: center;
     padding: 10px;
 }
