@@ -11,6 +11,9 @@ header {
     background-color: #4b4b4c6b;
     color: #0a0909;
     padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
 }
 
 header h1 {
@@ -46,4 +49,24 @@ footer {
     color: #050505;
     text-align: center;
     padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 300 ;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #111213;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
